@@ -25,6 +25,8 @@ router.get('/', function(req, res){
           var json = {regno:$('#ctl00_OnlineContent_tdRegnNo').text(),
           ownername:$('#ctl00_OnlineContent_tdOwnerName').text(),
           makerclass:$('#ctl00_OnlineContent_tdMakersClass').text(),
+          color:$('#ctl00_OnlineContent_tdColour').text(),
+          dateofregistration:$('#ctl00_OnlineContent_tdRegnDate').text(),
           aadhaar:$('#ctl00_OnlineContent_tdAadharNo').text(),
     		  nocoffice:$('#ctl00_OnlineContent_tdIssuedToOffice').text(),
     		  nocstate:$('#ctl00_OnlineContent_tdIssuedToState').text(),
